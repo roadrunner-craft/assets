@@ -8,13 +8,6 @@ data files the game consumes, so the editable sources never ship with the game.
 
 ## Usage
 
-Exporting requires Python and [ImageMagick](https://imagemagick.org), both
-installed through [mise](https://mise.jdx.dev):
-
-```sh
-mise install
-```
-
 Render every asset into a target directory:
 
 ```sh
