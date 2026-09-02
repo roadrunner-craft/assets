@@ -2,7 +2,7 @@
 lockfile = true
 
 [tools]
-imagemagick = "7"
+imagemagick = "7.1"
 python = "3.14"
 
 [tasks.export]
