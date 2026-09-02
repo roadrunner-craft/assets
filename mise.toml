@@ -1,0 +1,20 @@
+[settings]
+lockfile = true
+
+[tools]
+imagemagick = "7"
+python = "3.14"
+
+[tasks.export]
+description = "Render every asset into a target directory"
+usage = '''
+arg "<output_dir>" help="directory to export assets into"
+'''
+run = 'scripts/export.py "$usage_output_dir"'
+
+[tasks.watch]
+description = "Re-export assets whenever a source file changes"
+usage = '''
+arg "<output_dir>" help="directory to export assets into"
+'''
+run = 'scripts/watch.py "$usage_output_dir"'
